@@ -35,7 +35,8 @@ CONFIG_PACKAGE_luci-theme-tomato=y
 
 默认主题：
 由于自己编译，我[删除](https://github.com/DHDAXCW/theme/commit/0269f614a00c6b795f1dacb8a01e3262858cd597)了各个默认主题~
-请在选好主题保存之后执行代码来编译系统默认主题：
+
+想默认主题，请在选好主题保存之后执行代码来编译系统默认主题：
 
 ```bash
 sed -i 's/luci-theme-bootstrap/主题名/' feeds/luci/collections/luci/Makefile
