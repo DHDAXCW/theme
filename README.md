@@ -21,9 +21,7 @@ LuCI ---> Themes ---> luci-theme-tomato
 云编译主题配置:
 
 ```bash
-CONFIG_PACKAGE_luci-theme-argonne=y
 CONFIG_PACKAGE_luci-theme-atmaterial_new=y
-CONFIG_PACKAGE_luci-theme-bootstrap=y
 CONFIG_PACKAGE_luci-theme-edge=y
 CONFIG_PACKAGE_luci-theme-ifit=y
 CONFIG_PACKAGE_luci-theme-infinityfreedom=y
