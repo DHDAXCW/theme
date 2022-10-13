@@ -32,3 +32,17 @@ CONFIG_PACKAGE_luci-theme-netgear=y
 CONFIG_PACKAGE_luci-theme-rosy=y
 CONFIG_PACKAGE_luci-theme-tomato=y
 ```
+
+默认主题：
+
+请在选好主题保存之后执行代码来编译系统默认主题：
+
+```bash
+sed -i 's/luci-theme-bootstrap/主题名/' feeds/luci/collections/luci/Makefile
+```
+
+把你需要修改的主题名加到下面链接，比如默认主题infinityfreedom
+
+```bash
+sed -i 's/luci-theme-bootstrap/infinityfreedom/' feeds/luci/collections/luci/Makefile
+```
