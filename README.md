@@ -32,7 +32,6 @@ CONFIG_PACKAGE_luci-theme-netgear=y
 CONFIG_PACKAGE_luci-theme-rosy=y
 CONFIG_PACKAGE_luci-theme-tomato=y
 ```
-注：luci-theme-argon不能和luci-theme-argonne同时编译
 
 默认主题：
 
